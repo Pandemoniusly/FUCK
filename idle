@@ -1,0 +1,5400 @@
+return {
+	Properties = {
+		Looping = true,
+		Priority = Enum.AnimationPriority.Action
+	},
+	Keyframes = {
+		[0] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.002, 0.002, 0),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-0.115)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-0.057)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-0.057)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-0.057)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-0.401)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(0.229)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(0.057)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-0.286)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(0.172)),
+												["BackArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(0.115)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.115), 0),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-0.115)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-137.739)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-0.115)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-0.057)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), 0),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(0.115)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), math.rad(0.115)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(40.336)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(0.057)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.033] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.005, 0.002, 0),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-0.516)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-0.172)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-0.286)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-0.172)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-1.203)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(0.745)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(0.286)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-0.974)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(0.573)),
+												["BackArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(0.458)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(0.229), math.rad(-0.172), math.rad(0.057)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-0.458)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-137.281)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-0.344), math.rad(0.057), math.rad(-0.229)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-0.172)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(0.172), math.rad(0.172), math.rad(-0.115)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(0.458)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-0.344), math.rad(-0.115), math.rad(0.286)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(39.935)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(0.172)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.1] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.01, 0.003, 0),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-1.375)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-0.458)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-0.63)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-0.516)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(-2.865)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(1.833)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(0.63)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-2.464)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(1.49)),
+												["BackArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(1.203)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(0.401), math.rad(-0.401), math.rad(0.229)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-1.031)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-136.421)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-1.203), math.rad(0.286), math.rad(-0.573)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-0.516)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(0.401), math.rad(0.401), math.rad(-0.401)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(1.031)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-1.146), math.rad(-0.401), math.rad(0.63)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(39.076)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(0.516)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.233] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.04, 0.013, 0.001),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.115), math.rad(-3.323)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-1.031)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-1.49)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-1.146)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(-6.303)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(4.354)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(1.49)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.615)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.001, 0.001, 0) * CFrame.Angles(0, 0, math.rad(3.495)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, 0.001, 0) * CFrame.Angles(0, 0, math.rad(2.807)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(0.745), math.rad(-0.745), math.rad(0.516)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-2.005)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-134.76)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-2.865), math.rad(0.745), math.rad(-1.203)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-1.203)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(0.802), math.rad(0.859), math.rad(-0.859)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(2.005)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-2.75), math.rad(-0.859), math.rad(1.375)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(37.414)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(1.203)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.367] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.079, 0.025, 0.001),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.172), math.rad(-5.386)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-1.662)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-2.406)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-1.891)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.115), math.rad(-9.798)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(6.933)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(2.464)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-8.881)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.001, 0.001, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(5.615)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.001, 0) * CFrame.Angles(0, 0, math.rad(4.584)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(1.146), math.rad(-1.089), math.rad(0.745)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-2.979)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-133.041)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-4.584), math.rad(1.089), math.rad(-1.891)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-1.891)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(1.261), math.rad(1.318), math.rad(-1.375)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(2.979)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-4.297), math.rad(-1.261), math.rad(2.177)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(35.753)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(1.891)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.5] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.121, 0.038, 0.002),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.229), math.rad(-7.448)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-2.292)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-3.38)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-2.636)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.172), math.rad(-13.178)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(9.454)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(3.438)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-12.032)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.001, 0.001, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(7.735)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.002, 0) * CFrame.Angles(0, 0, math.rad(6.36)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(1.547), math.rad(-1.49), math.rad(0.974)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-4.068)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-131.379)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-6.36), math.rad(1.375), math.rad(-2.636)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-2.578)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(1.719), math.rad(1.776), math.rad(-1.891)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(4.068)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-5.901), math.rad(-1.547), math.rad(2.979)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(34.091)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(2.578)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.567] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.143, 0.044, 0.002),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(0.229), math.rad(-8.422)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-2.636)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-3.896)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-2.979)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.172), math.rad(-14.782)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.229), 0, math.rad(10.6)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(3.896)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-13.522)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.001, 0.001, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(8.709)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.002, 0) * CFrame.Angles(0, 0, math.rad(7.219)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(1.719), math.rad(-1.662), math.rad(1.089)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-4.698)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-130.52)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-7.219), math.rad(1.432), math.rad(-2.979)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-2.922)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(1.948), math.rad(2.005), math.rad(-2.12)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(4.698)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-6.704), math.rad(-1.662), math.rad(3.38)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(33.232)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(2.922)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.633] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.165, 0.051, 0.002),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(0.286), math.rad(-9.339)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-2.979)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-4.354)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-3.38)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(-0.172), math.rad(-16.387)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.229), 0, math.rad(11.574)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(4.354)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-14.84)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(9.626)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.003, 0) * CFrame.Angles(0, 0, math.rad(8.021)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(1.948), math.rad(-1.833), math.rad(1.203)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-5.5)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-129.66)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-8.079), math.rad(1.547), math.rad(-3.323)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-3.266)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(2.177), math.rad(2.235), math.rad(-2.406)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(5.443)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-7.506), math.rad(-1.719), math.rad(3.782)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(32.429)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(3.266)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.7] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.188, 0.058, 0.003),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(0.286), math.rad(-10.141)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-3.323)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-4.813)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-3.724)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(-0.172), math.rad(-17.934)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.229), 0, math.rad(12.49)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(4.813)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-16.1)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(10.485)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.003, 0) * CFrame.Angles(0, 0, math.rad(8.766)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(2.12), math.rad(-2.005), math.rad(1.318)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-6.36)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-128.801)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-8.938), math.rad(1.604), math.rad(-3.724)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-3.61)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(2.406), math.rad(2.464), math.rad(-2.636)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(6.36)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-8.308), math.rad(-1.776), math.rad(4.183)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(31.57)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(3.61)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.767] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.211, 0.065, 0.003),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(0.344), math.rad(-10.886)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-3.61)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-5.271)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-4.068)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(-0.172), math.rad(-19.423)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.286), 0, math.rad(13.178)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(5.271)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.057), math.rad(-17.131)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(11.23)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.003, 0) * CFrame.Angles(0, 0, math.rad(9.511)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(2.292), math.rad(-2.177), math.rad(1.49)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-7.448)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-127.999)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-9.798), math.rad(1.662), math.rad(-4.068)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-3.953)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(2.636), math.rad(2.693), math.rad(-2.922)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(7.391)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-9.11), math.rad(-1.776), math.rad(4.526)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(30.768)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(3.953)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.833] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.237, 0.073, 0.003),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(0.344), math.rad(-11.516)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-3.896)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.73)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-4.412)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(-0.172), math.rad(-20.856)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.286), 0, math.rad(13.694)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(5.672)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.057), math.rad(-17.991)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(11.803)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.003, 0) * CFrame.Angles(0, 0, math.rad(10.141)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(2.521), math.rad(-2.349), math.rad(1.662)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-8.652)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-127.139)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-10.657), math.rad(1.662), math.rad(-4.354)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-4.297)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(2.807), math.rad(2.922), math.rad(-3.151)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(8.594)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-9.912), math.rad(-1.776), math.rad(4.927)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(29.908)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(4.297)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.867] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.251, 0.078, 0.004),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(0.344), math.rad(-11.803)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-4.068)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.901)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-4.584)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(-0.229), math.rad(-21.658)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.286), 0, math.rad(13.866)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(5.901)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.057), math.rad(-18.392)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(12.089)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.003, 0) * CFrame.Angles(0, 0, math.rad(10.428)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(2.578), math.rad(-2.464), math.rad(1.776)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-9.339)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-126.681)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-11.058), math.rad(1.662), math.rad(-4.526)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-4.469)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(2.922), math.rad(2.979), math.rad(-3.266)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(9.339)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-10.313), math.rad(-1.776), math.rad(5.099)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.874), math.rad(29.507)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(4.412)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[0.933] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.28, 0.087, 0.004),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(0.344), math.rad(-12.204)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-4.354)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-6.303)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-4.87)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.344), math.rad(-0.229), math.rad(-23.262)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.286), 0, math.rad(13.98)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(6.245)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.057), math.rad(-18.908)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(12.433)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.004, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(10.886)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(2.75), math.rad(-2.636), math.rad(2.005)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-10.886)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-125.879)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-11.918), math.rad(1.662), math.rad(-4.87)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-4.813)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(3.151), math.rad(3.209), math.rad(-3.552)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(10.829)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-11.115), math.rad(-1.776), math.rad(5.443)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.931), math.rad(28.648)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(4.756)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.033] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.321, 0.1, 0.005),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(0.401), math.rad(-12.49)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-4.698)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-6.818)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-5.329)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.344), math.rad(-0.229), math.rad(-25.497)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.286), 0, math.rad(13.923)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(6.761)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.115), math.rad(-19.481)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(12.662)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.004, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(11.402)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.037), math.rad(-2.922), math.rad(2.406)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-13.465)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-124.561)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-13.178), math.rad(1.662), math.rad(-5.329)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-5.271)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(3.438), math.rad(3.495), math.rad(-4.011)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(13.407)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-12.319), math.rad(-1.719), math.rad(5.901)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.931), math.rad(27.445)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(5.271)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.1] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.348, 0.108, 0.005),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(0.401), math.rad(-12.49)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-4.927)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-7.105)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.558)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.401), math.rad(-0.229), math.rad(-26.757)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.286), 0, math.rad(13.751)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(6.99)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.115), math.rad(-19.767)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.002, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(12.548)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.004, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(11.631)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.209), math.rad(-3.094), math.rad(2.693)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-15.355)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-123.759)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-13.98), math.rad(1.604), math.rad(-5.558)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-5.615)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(3.667), math.rad(3.724), math.rad(-4.297)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(15.298)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-13.178), math.rad(-1.662), math.rad(6.188)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.931), math.rad(26.585)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(5.558)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.167] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.376, 0.117, 0.005),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(0.344), math.rad(-12.376)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-5.099)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-7.391)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.787)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.401), math.rad(-0.229), math.rad(-27.674)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.286), 0, math.rad(13.465)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(7.219)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.115), math.rad(-19.882)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.003, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(12.433)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.004, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(11.631)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.323), math.rad(-3.266), math.rad(3.037)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-17.303)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.798), math.rad(-122.899)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-14.782), math.rad(1.604), math.rad(-5.844)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-5.901)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(3.839), math.rad(3.896), math.rad(-4.584)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(17.246)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-13.98), math.rad(-1.604), math.rad(6.474)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.931), math.rad(25.726)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(5.901)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.233] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.403, 0.125, 0.006),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(0.344), math.rad(-12.147)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-5.271)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-7.563)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.901)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.401), math.rad(-0.286), math.rad(-28.018)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.286), 0, math.rad(13.178)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(7.334)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.115), math.rad(-19.882)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.003, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(12.147)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.002, 0.004, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(11.574)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.495), math.rad(-3.438), math.rad(3.38)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-19.251)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.855), math.rad(-122.04)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-15.527), math.rad(1.547), math.rad(-6.073)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-6.188)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.011), math.rad(4.068), math.rad(-4.87)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(19.194)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-14.84), math.rad(-1.547), math.rad(6.761)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.931), math.rad(24.866)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(6.188)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.3] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.428, 0.133, 0.006),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(0.344), math.rad(-11.86)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-5.386)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-7.735)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-6.073)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.401), math.rad(-0.286), math.rad(-27.788)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.229), 0, math.rad(12.777)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(7.448)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.115), math.rad(-19.824)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.003, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(11.86)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.002, 0.005, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(11.402)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.61), math.rad(-3.61), math.rad(4.011)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.057), math.rad(-21.257)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.855), math.rad(-121.181)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-16.329), math.rad(1.49), math.rad(-6.303)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-6.532)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.24), math.rad(4.24), math.rad(-5.214)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(21.199)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-15.699), math.rad(-1.49), math.rad(6.99)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.103), math.rad(-59.931), math.rad(24.064)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(6.474)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.367] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.452, 0.141, 0.007),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(0.344), math.rad(-11.459)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.443)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-7.792)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-6.131)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.401), math.rad(-0.286), math.rad(-27.044)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.229), 0, math.rad(12.319)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(7.448)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.115), math.rad(-19.71)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.003, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(11.459)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.002, 0.005, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(11.115)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.782), math.rad(-3.782), math.rad(4.87)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.057), math.rad(-23.205)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.855), math.rad(-120.321)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-17.017), math.rad(1.432), math.rad(-6.532)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-6.818)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.354), math.rad(4.412), math.rad(-5.5)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(23.147)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-16.501), math.rad(-1.375), math.rad(7.219)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.16), math.rad(-59.931), math.rad(23.205)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(6.761)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.433] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.474, 0.147, 0.007),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(0.344), math.rad(-11.001)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.443)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-7.792)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-6.188)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.344), math.rad(-0.286), math.rad(-26.184)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.229), 0, math.rad(11.803)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(7.391)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.115), math.rad(-19.423)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.003, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(11.001)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.002, 0.005, 0) * CFrame.Angles(0, 0, math.rad(10.772)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.896), math.rad(-4.011), math.rad(5.901)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.057), math.rad(-25.153)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.855), math.rad(-119.462)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-17.762), math.rad(1.375), math.rad(-6.704)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-7.047)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.526), math.rad(4.584), math.rad(-5.844)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(25.038)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-17.475), math.rad(-1.375), math.rad(7.391)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.16), math.rad(-59.931), math.rad(22.345)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(7.047)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.5] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.492, 0.152, 0.007),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(0.286), math.rad(-10.542)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.443)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-7.735)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-6.131)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.344), math.rad(-0.229), math.rad(-25.096)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.229), 0, math.rad(11.23)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(7.277)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.115), math.rad(-19.079)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.003, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(10.485)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.002, 0.005, 0) * CFrame.Angles(0, 0, math.rad(10.371)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.953), math.rad(-4.183), math.rad(7.047)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.057), math.rad(-26.929)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.855), math.rad(-118.602)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-18.507), math.rad(1.318), math.rad(-6.875)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-7.334)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.641), math.rad(4.756), math.rad(-6.303)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(26.814)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-18.564), math.rad(-1.432), math.rad(7.62)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.16), math.rad(-59.931), math.rad(21.314)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(7.277)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.567] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.51, 0.157, 0.007),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(0.286), math.rad(-9.969)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.386)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-7.62)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-6.073)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.344), math.rad(-0.229), math.rad(-23.892)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.229), 0, math.rad(10.6)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(7.047)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.115), math.rad(-18.678)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.003, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(9.912)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.002, 0.005, 0) * CFrame.Angles(0, 0, math.rad(9.855)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.068), math.rad(-4.354), math.rad(8.193)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.115), math.rad(-28.591)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.855), math.rad(-117.399)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-19.251), math.rad(1.318), math.rad(-7.047)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-7.563)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.756), math.rad(4.87), math.rad(-6.818)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.115), math.rad(28.476)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-19.71), math.rad(-1.49), math.rad(7.735)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.16), math.rad(-59.931), math.rad(20.054)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(7.563)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.633] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.528, 0.161, 0.008),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(0.286), math.rad(-9.339)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-5.271)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-7.448)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.959)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(-0.229), math.rad(-22.517)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(9.969)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(6.818)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.115), math.rad(-18.163)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.003, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(9.282)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.002, 0.005, 0) * CFrame.Angles(0, 0, math.rad(9.339)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.183), math.rad(-4.469), math.rad(9.282)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.115), math.rad(-30.08)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.855), math.rad(-116.139)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-19.996), math.rad(1.318), math.rad(-7.162)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-7.792)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.87), math.rad(4.927), math.rad(-7.506)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.115), math.rad(29.966)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-20.856), math.rad(-1.662), math.rad(7.907)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.217), math.rad(-59.931), math.rad(18.736)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(7.792)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.7] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.542, 0.165, 0.008),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(0.229), math.rad(-8.709)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-5.099)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-7.162)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.73)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.286), math.rad(-0.229), math.rad(-21.085)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(9.282)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(6.532)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.057), math.rad(-17.59)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.003, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(8.652)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.002, 0.005, 0) * CFrame.Angles(0, 0, math.rad(8.766)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.24), math.rad(-4.584), math.rad(10.199)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.115), math.rad(-31.398)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.855), math.rad(-114.821)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-20.741), math.rad(1.375), math.rad(-7.277)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-8.021)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.87), math.rad(4.985), math.rad(-8.193)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.115), math.rad(31.283)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-21.887), math.rad(-1.776), math.rad(8.021)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.275), math.rad(-59.931), math.rad(17.475)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(7.964)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.767] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.554, 0.167, 0.008),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(0.229), math.rad(-8.021)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-4.87)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-6.818)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.5)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(-0.229), math.rad(-19.538)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(8.594)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(6.131)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(-0.057), math.rad(-16.96)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.003, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(7.964)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.002, 0.004, 0) * CFrame.Angles(0, 0, math.rad(8.136)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.297), math.rad(-4.641), math.rad(10.829)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.115), math.rad(-32.544)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-113.732)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-21.371), math.rad(1.375), math.rad(-7.391)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-8.193)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.927), math.rad(5.042), math.rad(-8.881)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.115), math.rad(32.372)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-22.746), math.rad(-1.891), math.rad(8.079)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.275), math.rad(-59.931), math.rad(16.387)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(8.193)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.833] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.561, 0.168, 0.008),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.229), math.rad(-7.334)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-4.641)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-6.474)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-5.271)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(-0.172), math.rad(-17.991)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.172), 0, math.rad(7.907)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(5.73)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-16.272)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.003, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(7.219)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.004, 0) * CFrame.Angles(0, 0, math.rad(7.448)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.354), math.rad(-4.698), math.rad(11.115)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.115), math.rad(-33.461)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-112.987)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-21.887), math.rad(1.432), math.rad(-7.448)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-8.365)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.927), math.rad(5.099), math.rad(-9.511)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.115), math.rad(33.232)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-23.319), math.rad(-2.005), math.rad(8.136)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.332), math.rad(-59.931), math.rad(15.642)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(8.308)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.9] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.562, 0.168, 0.008),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.172), math.rad(-6.589)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-4.354)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-6.073)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-4.927)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.229), math.rad(-0.172), math.rad(-16.387)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(7.162)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(5.271)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-15.527)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.003, 0.002, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(6.532)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.004, 0) * CFrame.Angles(0, 0, math.rad(6.761)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.354), math.rad(-4.698), math.rad(11.001)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.115), math.rad(-34.034)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-112.758)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-22.288), math.rad(1.49), math.rad(-7.506)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-8.48)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.927), math.rad(5.099), math.rad(-10.027)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.115), math.rad(33.805)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-23.606), math.rad(-2.063), math.rad(8.193)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.332), math.rad(-59.989), math.rad(15.355)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(8.422)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[1.933] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.56, 0.168, 0.008),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.172), math.rad(-6.245)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-4.24)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.844)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-4.756)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.172), math.rad(-15.584)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(6.761)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(5.042)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-15.069)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(6.131)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.004, 0) * CFrame.Angles(0, 0, math.rad(6.417)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.354), math.rad(-4.698), math.rad(10.886)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.115), math.rad(-34.206)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-112.93)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-22.403), math.rad(1.547), math.rad(-7.506)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-8.48)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.927), math.rad(5.099), math.rad(-10.256)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.115), math.rad(33.976)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-23.606), math.rad(-2.063), math.rad(8.193)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.332), math.rad(-59.989), math.rad(15.413)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(8.48)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.553, 0.165, 0.008),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.172), math.rad(-5.5)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-3.896)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.386)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-4.412)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.172), math.rad(-13.923)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(6.073)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(4.584)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-14.095)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(math.rad(0.057), 0, math.rad(5.443)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.004, 0) * CFrame.Angles(0, 0, math.rad(5.672)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.354), math.rad(-4.698), math.rad(10.428)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.115), math.rad(-34.263)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-113.503)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-22.517), math.rad(1.604), math.rad(-7.506)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-8.537)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.87), math.rad(5.099), math.rad(-10.542)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.115), math.rad(34.034)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-23.319), math.rad(-2.005), math.rad(8.193)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.389), math.rad(-59.989), math.rad(15.928)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(8.48)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.067] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.543, 0.163, 0.008),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.115), math.rad(-4.756)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-3.552)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-4.87)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-4.011)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.115), math.rad(-12.319)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(5.329)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(4.068)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-13.006)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(0, 0, math.rad(4.698)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.003, 0) * CFrame.Angles(0, 0, math.rad(4.985)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.354), math.rad(-4.641), math.rad(9.74)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.115), math.rad(-33.805)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-114.362)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-22.46), math.rad(1.662), math.rad(-7.391)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-8.537)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.813), math.rad(5.042), math.rad(-10.6)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.115), math.rad(33.575)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-22.746), math.rad(-1.891), math.rad(8.136)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.389), math.rad(-59.989), math.rad(16.73)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(8.48)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.133] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.53, 0.159, 0.008),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.115), math.rad(-4.011)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-3.209)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-4.354)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-3.61)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.115), math.rad(-10.772)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(4.584)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.115), 0, math.rad(3.552)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-11.746)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(0, 0, math.rad(4.011)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.003, 0) * CFrame.Angles(0, 0, math.rad(4.24)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.297), math.rad(-4.641), math.rad(8.995)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.115), math.rad(-32.773)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-115.394)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-22.059), math.rad(1.719), math.rad(-7.277)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-8.422)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.756), math.rad(4.985), math.rad(-10.371)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.115), math.rad(32.659)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-22.002), math.rad(-1.776), math.rad(8.079)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.389), math.rad(-59.989), math.rad(17.762)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(8.422)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.2] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.515, 0.155, 0.007),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.057), math.rad(-3.266)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-2.807)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-3.782)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-3.151)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.115), math.rad(-9.339)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(3.896)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(2.979)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-10.371)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(0, 0, math.rad(3.266)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.003, 0) * CFrame.Angles(0, 0, math.rad(3.495)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.297), math.rad(-4.526), math.rad(8.136)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.115), math.rad(-31.398)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-116.597)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-21.486), math.rad(1.719), math.rad(-7.162)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-8.308)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.698), math.rad(4.927), math.rad(-9.912)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.172), math.rad(-0.115), math.rad(31.226)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-21.028), math.rad(-1.662), math.rad(7.964)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.389), math.rad(-59.989), math.rad(19.022)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(8.251)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.267] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.499, 0.151, 0.007),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-2.578)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-2.406)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-3.209)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-2.75)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.115), math.rad(-7.907)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(3.209)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(2.464)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(-8.938)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.002, 0.002, 0) * CFrame.Angles(0, 0, math.rad(2.636)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.003, 0) * CFrame.Angles(0, 0, math.rad(2.807)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.24), math.rad(-4.469), math.rad(7.277)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.115), math.rad(-29.622)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.969), math.rad(-117.915)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-20.856), math.rad(1.776), math.rad(-6.933)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-8.079)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.584), math.rad(4.87), math.rad(-9.282)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.115), math.rad(29.335)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-20.054), math.rad(-1.547), math.rad(7.85)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.389), math.rad(-59.989), math.rad(20.397)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(8.021)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.333] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.481, 0.146, 0.007),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-1.891)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-2.005)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-2.636)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-2.292)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(-6.646)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(2.521)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(1.891)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-7.448)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.001, 0.001, 0) * CFrame.Angles(0, 0, math.rad(1.948)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.002, 0) * CFrame.Angles(0, 0, math.rad(2.063)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.183), math.rad(-4.354), math.rad(6.417)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.115), math.rad(-27.617)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.969), math.rad(-119.347)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-20.054), math.rad(1.776), math.rad(-6.704)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-7.85)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.526), math.rad(4.756), math.rad(-8.537)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(27.158)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-19.022), math.rad(-1.49), math.rad(7.735)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.446), math.rad(-59.989), math.rad(21.83)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(7.792)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.4] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.463, 0.141, 0.007),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-1.203)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-1.604)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-2.063)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-1.833)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(-5.5)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(1.948)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(1.318)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-5.901)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.001, 0.001, 0) * CFrame.Angles(0, 0, math.rad(1.375)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.002, 0) * CFrame.Angles(0, 0, math.rad(1.432)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(4.068), math.rad(-4.183), math.rad(5.615)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.057), math.rad(-25.497)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.969), math.rad(-120.78)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-19.194), math.rad(1.776), math.rad(-6.474)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-7.563)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.412), math.rad(4.641), math.rad(-7.678)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(24.866)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-18.048), math.rad(-1.49), math.rad(7.563)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.446), math.rad(-59.989), math.rad(23.319)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(7.563)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.467] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.443, 0.136, 0.006),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-0.573)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-1.203)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-1.49)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-1.375)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(-4.469)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(1.375)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(0.802)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-4.297)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.001, 0.001, 0) * CFrame.Angles(0, 0, math.rad(0.802)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(-0.001, 0.002, 0) * CFrame.Angles(0, 0, math.rad(0.745)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.953), math.rad(-4.068), math.rad(4.927)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.057), math.rad(-23.205)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.969), math.rad(-122.269)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-18.22), math.rad(1.719), math.rad(-6.245)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-7.334)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.297), math.rad(4.526), math.rad(-6.761)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(22.575)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-17.189), math.rad(-1.547), math.rad(7.334)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.446), math.rad(-59.989), math.rad(24.752)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(7.277)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.533] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.424, 0.13, 0.006),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-0.057)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-0.802)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-0.974)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-0.917)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(-3.38)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(0.802)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(0.286)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-2.75)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.001, 0.001, 0) * CFrame.Angles(0, 0, math.rad(0.286)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, 0.001, 0) * CFrame.Angles(0, 0, math.rad(0.172)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.839), math.rad(-3.896), math.rad(4.469)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.057), math.rad(-20.97)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.969), math.rad(-123.702)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-17.189), math.rad(1.719), math.rad(-5.959)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-7.047)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.183), math.rad(4.412), math.rad(-5.73)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(20.397)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-16.329), math.rad(-1.604), math.rad(7.105)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.446), math.rad(-59.989), math.rad(26.127)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(6.99)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.6] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.405, 0.125, 0.006),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(0.516)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-0.401)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-0.401)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-0.458)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-2.406)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(0.344)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-0.229)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-1.203)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(-0.001, 0.001, 0) * CFrame.Angles(0, 0, math.rad(-0.172)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, 0.001, 0) * CFrame.Angles(0, 0, math.rad(-0.401)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.724), math.rad(-3.724), math.rad(4.068)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.057), math.rad(-18.793)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.969), math.rad(-125.077)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-16.1), math.rad(1.662), math.rad(-5.672)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-6.761)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(4.011), math.rad(4.24), math.rad(-4.756)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(18.449)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-15.527), math.rad(-1.662), math.rad(6.818)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.446), math.rad(-59.989), math.rad(27.33)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(6.704)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.633] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.395, 0.122, 0.006),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(0.745)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-0.229)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(-0.172)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-0.286)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-1.891)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(0.115)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-0.516)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-0.458)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-0.344)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, 0.001, 0) * CFrame.Angles(0, 0, math.rad(-0.63)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.61), math.rad(-3.667), math.rad(3.896)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(0.057), math.rad(-17.762)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.969), math.rad(-125.764)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-15.584), math.rad(1.604), math.rad(-5.5)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-6.589)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(3.953), math.rad(4.125), math.rad(-4.297)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(17.647)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-15.069), math.rad(-1.719), math.rad(6.704)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.446), math.rad(-59.989), math.rad(27.846)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(6.532)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.667] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.386, 0.119, 0.006),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(0.917)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(-0.057)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(0.115)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(-0.057)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-1.375)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-0.172)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-0.745)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(0.286)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-0.573)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, 0.001, 0) * CFrame.Angles(0, 0, math.rad(-0.917)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.552), math.rad(-3.552), math.rad(3.724)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-16.788)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.969), math.rad(-126.337)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-15.011), math.rad(1.547), math.rad(-5.329)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-6.417)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(3.896), math.rad(4.068), math.rad(-3.782)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(16.96)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-14.668), math.rad(-1.776), math.rad(6.589)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.389), math.rad(-59.989), math.rad(28.304)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(6.417)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.7] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.377, 0.117, 0.005),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(1.146)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(0.115)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(0.344)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(0.172)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(-0.859)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-0.401)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-0.974)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(1.031)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-0.745)),
+												["BackArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-1.146)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.438), math.rad(-3.495), math.rad(3.552)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-15.871)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.969), math.rad(-126.967)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-14.439), math.rad(1.547), math.rad(-5.157)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-6.245)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(3.839), math.rad(3.953), math.rad(-3.38)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.115), math.rad(-0.057), math.rad(16.387)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-14.209), math.rad(-1.776), math.rad(6.417)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.389), math.rad(-59.989), math.rad(28.705)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(6.245)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.767] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.352, 0.109, 0.005),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(1.49)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(0.516)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(0.859)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(0.573)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(0.057)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-0.859)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-1.375)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(2.406)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-1.031)),
+												["BackArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-1.547)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.266), math.rad(-3.323), math.rad(3.266)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-14.267)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.912), math.rad(-127.999)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-13.235), math.rad(1.432), math.rad(-4.87)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-5.959)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(3.724), math.rad(3.782), math.rad(-2.521)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(15.183)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-13.35), math.rad(-1.833), math.rad(6.131)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.389), math.rad(-59.989), math.rad(29.565)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(5.901)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.8] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.337, 0.105, 0.005),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(1.662)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(0.63)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(1.089)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(0.745)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(0.516)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-1.146)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-1.604)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(3.037)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-1.146)),
+												["BackArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-1.719)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(3.209), math.rad(-3.209), math.rad(3.094)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-13.579)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.912), math.rad(-128.457)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-12.662), math.rad(1.375), math.rad(-4.698)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-5.787)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(3.61), math.rad(3.667), math.rad(-2.12)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(14.61)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-12.949), math.rad(-1.833), math.rad(5.959)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.389), math.rad(-59.989), math.rad(29.966)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(5.73)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[2.9] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.295, 0.092, 0.004),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(2.063)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(1.146)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(1.719)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(1.261)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(1.891)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-1.833)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-2.12)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(4.813)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-1.49)),
+												["BackArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-2.12)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(2.922), math.rad(-2.922), math.rad(2.693)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-11.803)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.912), math.rad(-129.66)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-10.886), math.rad(1.203), math.rad(-4.24)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-5.271)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(3.38), math.rad(3.38), math.rad(-1.203)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(13.006)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-11.631), math.rad(-1.891), math.rad(5.443)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.389), math.rad(-59.989), math.rad(31.054)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(5.214)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.256, 0.08, 0.004),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(2.292)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(1.49)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(2.235)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(1.719)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), math.rad(3.151)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-2.521)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-2.578)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(6.245)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-1.719)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.349)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(2.578), math.rad(-2.636), math.rad(2.349)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-10.256)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.354), math.rad(9.912), math.rad(-130.749)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-9.11), math.rad(1.031), math.rad(-3.724)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-4.698)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(3.151), math.rad(3.037), math.rad(-0.63)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(11.459)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-10.313), math.rad(-1.891), math.rad(4.87)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.389), math.rad(-59.989), math.rad(32.143)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(4.698)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.067] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.23, 0.071, 0.003),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(2.406)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(1.719)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(2.521)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(1.948)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), math.rad(3.896)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-2.922)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-2.75)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(6.933)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(0.001, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-1.833)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.406)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(2.406), math.rad(-2.406), math.rad(2.12)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-9.282)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-131.437)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-7.964), math.rad(0.859), math.rad(-3.438)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-4.354)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(2.979), math.rad(2.865), math.rad(-0.344)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(10.542)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-9.454), math.rad(-1.891), math.rad(4.526)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.332), math.rad(-59.989), math.rad(32.83)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(4.354)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.167] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.191, 0.059, 0.003),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(2.521)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(1.948)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(2.75)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(2.235)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), math.rad(4.927)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-3.495)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-2.865)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(7.219)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(0.001, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.005)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.464)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(2.063), math.rad(-2.12), math.rad(1.776)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-7.964)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-132.353)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-6.36), math.rad(0.63), math.rad(-2.979)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-3.839)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(2.636), math.rad(2.521), math.rad(-0.057)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(9.167)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-8.193), math.rad(-1.833), math.rad(3.896)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.332), math.rad(-59.989), math.rad(33.805)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(3.782)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.233] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.165, 0.051, 0.002),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(2.521)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(2.005)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(2.75)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(2.292)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), math.rad(5.558)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-3.782)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-2.75)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(7.105)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(0.001, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.063)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0.001, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.406)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(1.833), math.rad(-1.891), math.rad(1.547)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-7.162)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-132.869)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-5.271), math.rad(0.516), math.rad(-2.693)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-3.438)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(2.406), math.rad(2.292), math.rad(0.057)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(8.251)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-7.334), math.rad(-1.719), math.rad(3.495)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.332), math.rad(-59.989), math.rad(34.492)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(3.438)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.3] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.139, 0.043, 0.002),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(2.521)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(1.948)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(2.693)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(2.235)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), math.rad(6.073)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-4.068)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-2.578)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(6.761)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(0.001, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.063)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0.001, -0.002, 0) * CFrame.Angles(0, 0, math.rad(-2.349)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(1.662), math.rad(-1.662), math.rad(1.375)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-6.417)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-133.442)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-4.354), math.rad(0.344), math.rad(-2.464)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-3.094)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(2.177), math.rad(2.063), math.rad(0.115)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(7.391)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-6.474), math.rad(-1.604), math.rad(3.094)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.275), math.rad(-59.989), math.rad(35.065)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(3.037)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.367] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.115, 0.036, 0.002),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(2.521)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(1.833)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(2.464)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(2.063)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), math.rad(6.589)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-4.297)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-2.349)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(6.303)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(0.001, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.063)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0.001, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.235)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(1.432), math.rad(-1.432), math.rad(1.203)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(-5.672)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.912), math.rad(-133.958)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-3.438), math.rad(0.229), math.rad(-2.177)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-2.693)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(1.948), math.rad(1.833), math.rad(0.115)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(6.532)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-5.615), math.rad(-1.49), math.rad(2.636)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.275), math.rad(-59.989), math.rad(35.695)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(2.693)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.433] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.091, 0.028, 0.001),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(2.464)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(1.662)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(2.235)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(1.891)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), math.rad(6.99)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-4.469)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-2.005)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(5.787)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(0.001, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.063)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.177)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(1.203), math.rad(-1.203), math.rad(0.974)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-4.927)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.855), math.rad(-134.473)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-2.693), math.rad(0.115), math.rad(-1.948)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-2.349)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(1.719), math.rad(1.547), math.rad(0.115)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(5.73)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-4.756), math.rad(-1.318), math.rad(2.235)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.275), math.rad(-59.989), math.rad(36.326)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(2.349)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.5] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.069, 0.021, 0.001),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(2.406)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(1.432)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(1.891)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(1.604)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.115), math.rad(0.057), math.rad(7.277)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-4.584)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-1.719)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(5.271)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(0.001, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.063)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.063)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(0.974), math.rad(-1.031), math.rad(0.802)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-4.24)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.855), math.rad(-134.932)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-2.12), math.rad(0.115), math.rad(-1.662)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-1.948)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(1.432), math.rad(1.318), math.rad(0.057)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(4.87)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-3.953), math.rad(-1.146), math.rad(1.833)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.275), math.rad(-59.931), math.rad(36.956)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(1.948)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.567] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.049, 0.015, 0.001),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(2.349)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(1.146)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(1.547)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(1.318)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), math.rad(7.047)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-4.584)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-1.318)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(4.756)),
+											["BackArm_02"] = {
+												CFrame = CFrame.new(0.001, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-2.063)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-1.948)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(0.802), math.rad(-0.802), math.rad(0.63)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-3.495)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.855), math.rad(-135.447)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-1.604), math.rad(0.057), math.rad(-1.375)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-1.604)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(1.203), math.rad(1.089), math.rad(0.057)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(4.068)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-3.094), math.rad(-0.917), math.rad(1.432)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.217), math.rad(-59.931), math.rad(37.529)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(1.604)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.633] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.034, 0.011, 0),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(2.235)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(0.917)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(1.203)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(1.031)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), math.rad(6.016)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-4.011)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-1.031)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(-0.057), 0, math.rad(3.953)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-2.005)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-1.833)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(0.573), math.rad(-0.573), math.rad(0.401)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-2.807)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.855), math.rad(-135.963)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-1.261), math.rad(0.115), math.rad(-1.089)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-1.261)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(0.917), math.rad(0.859), 0),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(3.209)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-2.235), math.rad(-0.688), math.rad(1.089)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.217), math.rad(-59.931), math.rad(38.159)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(1.203)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.7] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.023, 0.008, 0),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(1.776)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(0.63)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(0.802)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(0.688)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), math.rad(4.469)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-3.037)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-0.688)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(2.979)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-1.662)),
+												["BackArm_03"] = {
+													CFrame = CFrame.new(0, -0.001, 0) * CFrame.Angles(0, 0, math.rad(-1.49)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(0.344), math.rad(-0.401), math.rad(0.229)),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-2.063)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.412), math.rad(9.855), math.rad(-136.421)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-0.917), math.rad(0.115), math.rad(-0.802)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-0.859)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(0.688), math.rad(0.63), math.rad(-0.057)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(2.349)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-1.432), math.rad(-0.401), math.rad(0.688)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.217), math.rad(-59.931), math.rad(38.789)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(0.859)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.767] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.014, 0.005, 0),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), math.rad(1.146)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(0.401)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(0.516)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(0.401)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(2.693)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-1.891)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-0.401)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(1.891)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-1.089)),
+												["BackArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-0.917)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(0.172), math.rad(-0.172), 0),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-1.318)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.855), math.rad(-136.994)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-0.573), math.rad(0.057), math.rad(-0.516)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-0.516)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(0.401), math.rad(0.401), math.rad(-0.057)),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(1.49)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-0.63), math.rad(-0.172), math.rad(0.344)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.217), math.rad(-59.931), math.rad(39.419)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(0.516)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.833] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.004, 0.002, 0),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(0.458)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(0.172)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(0.229)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(0.172)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(1.089)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-0.802)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-0.229)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(0.802)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-0.458)),
+												["BackArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-0.401)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.115), 0),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-0.516)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.855), math.rad(-137.51)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(-0.172), math.rad(0.057), math.rad(-0.229)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-0.172)),
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(0.172), math.rad(0.172), 0),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(0.573)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(0.115)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.217), math.rad(-59.931), math.rad(40.05)),
+										},
+									},
+									["Piston_Start_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(0.172)),
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		[3.867] = {
+			["TurretBot"] = {
+				["Armature"] = {
+					["Root"] = {
+						["Pelvis"] = {
+							CFrame = CFrame.new(0.002, 0.001, 0),
+							["Spine_01"] = {
+								["Spine_02"] = {
+									["Torso"] = {
+										["Neck"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(0.172)),
+											["Head_Main"] = {
+												["Antena_01"] = {
+													["Antena_02"] = {
+														CFrame = CFrame.Angles(0, 0, math.rad(0.057)),
+														["Antena_03"] = {
+															CFrame = CFrame.Angles(0, 0, math.rad(0.115)),
+															["Antena_04"] = {
+																CFrame = CFrame.Angles(0, 0, math.rad(0.057)),
+															},
+														},
+													},
+												},
+											},
+										},
+										["FrontArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(0.401)),
+											["FrontArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-0.344)),
+												["FrontArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-0.115)),
+												},
+											},
+										},
+										["BackArm_01"] = {
+											CFrame = CFrame.Angles(0, 0, math.rad(0.286)),
+											["BackArm_02"] = {
+												CFrame = CFrame.Angles(0, 0, math.rad(-0.172)),
+												["BackArm_03"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(-0.172)),
+												},
+											},
+										},
+									},
+								},
+							},
+							["Pelvis_Right"] = {
+								["Thigh_Right"] = {
+									CFrame = CFrame.Angles(math.rad(0.057), math.rad(-0.057), 0),
+									["Calf_Right"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(-0.115)),
+										["Piston_End_Right"] = {
+											CFrame = CFrame.Angles(math.rad(-4.469), math.rad(9.855), math.rad(-137.796)),
+										},
+										["Shin_01_Right"] = {
+											["Shin_02_Right"] = {
+												["Foot_Right"] = {
+													CFrame = CFrame.Angles(math.rad(0.057), 0, math.rad(-0.057)),
+												},
+											},
+										},
+									},
+									["Piston_Start_Right"] = {
+									},
+								},
+							},
+							["Pelvis_Left"] = {
+								["Thigh_Left"] = {
+									CFrame = CFrame.Angles(math.rad(0.057), math.rad(0.057), 0),
+									["Calf_Left"] = {
+										CFrame = CFrame.Angles(0, 0, math.rad(0.115)),
+										["Shin_01_Left"] = {
+											["Shin_02_Left"] = {
+												["Foot_Left"] = {
+													CFrame = CFrame.Angles(0, 0, math.rad(0.057)),
+												},
+											},
+										},
+										["Piston_End_Left"] = {
+											CFrame = CFrame.Angles(math.rad(-124.16), math.rad(-59.931), math.rad(40.394)),
+										},
+									},
+									["Piston_Start_Left"] = {
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+	}
+}
